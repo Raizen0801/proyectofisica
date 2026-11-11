@@ -1,0 +1,20 @@
+{
+  "dipolo_V_mediatriz": 0.0,
+  "parabola_error_relativo": 1.5065616293703593e-15,
+  "orbita_deriva_energia": 2.4162094547364177e-10,
+  "orbita_radio_max_desv": 1.726667697710127e-10,
+  "rc_energia_disipada_vs_almacenada": 1.0000917303005992,
+  "rc_energia_fuente_vs_CV2": 0.9999546000702375,
+  "circuito_dif_max_reduccion_vs_mna": 6.444197553075437e-16,
+  "circuito_balance_potencia": 1.0,
+  "espira_eje_error_relativo_max": 5.999981622650807e-10,
+  "solenoide_centro_error": 2.8993201808824587e-05,
+  "convergencia_biot_savart_n128": 9.967752179207423e-10,
+  "helice_radio_teorico_m": 0.009040767136262829,
+  "helice_radio_medido_m": 0.009040767136634247,
+  "cicloide_deriva_teorica": 9999.999999999998,
+  "cicloide_deriva_medida": 10000.000000111628,
+  "selector_desviacion_y_max_m": 0.0,
+  "boris_orden_convergencia": 1.9961760615103121,
+  "boris_deriva_energia_32_pasos": 3.3406690738754698e-15
+}
