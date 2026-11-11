@@ -1,12 +1,3 @@
-# Configuración automática de despliegue para Netlify
+# Configuración de despliegue para Netlify
 [build]
-  base = "simulador-web"
-  publish = "."
-  command = "npm run build"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
+  publish = "dist"
