@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+.pytest_cache/
+.playwright-mcp/
+*.pyc
+docs/_tmp/
+*.zip
+_temp_video/
+

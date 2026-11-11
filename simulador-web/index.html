@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador de Campos Eléctricos y Magnéticos 3D</title>
+  <meta name="description" content="Simulador interactivo de campos eléctricos y magnéticos en 3D: cargas, potencial, trayectorias, capacitores, circuitos, ley de Ohm, campo magnético y fuerza de Lorentz.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menuBtn" class="icon-btn" aria-label="Abrir menú">☰</button>
+    <div class="brand">
+      <img class="brand-logo" src="img/logo-upeu.png" alt="Logo de la Universidad Peruana Unión" width="44" height="44">
+      <div>
+        <h1>Simulador de Campos Eléctricos y Magnéticos</h1>
+        <p>Física II · Ingeniería de Sistemas</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <a class="link-btn" id="helpBtn" href="#ayuda">Ayuda</a>
+    </div>
+  </header>
+  <div class="shell">
+    <nav id="nav" class="nav" aria-label="Módulos"></nav>
+    <main id="app" class="app" tabindex="-1"></main>
+  </div>
+  <noscript>Este simulador necesita JavaScript.</noscript>
+  <script src="dist/app.js?v=3"></script>
+</body>
+</html>

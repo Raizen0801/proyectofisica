@@ -1,0 +1,19 @@
+{
+  "name": "simulador-em-3d",
+  "version": "1.0.0",
+  "description": "Simulador interactivo de campos eléctricos y magnéticos en 3D (Física 2)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --minify --format=iife --target=es2020 --outfile=dist/app.js",
+    "dev": "esbuild src/main.js --bundle --format=iife --target=es2020 --outfile=dist/app.js --watch",
+    "test": "node --test tests/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
